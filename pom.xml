@@ -30,19 +30,19 @@
    <configuration>
       <hostname>${hostname}</hostname>
       <port>9990</port>
-      <username>administrator</username>
-      <password>Password1!</password>
+      <username>wildfly</username>
+      <password>wildfly</password>
    </configuration>
 </plugin>
 		</plugins>
 			</build>
 
 
-		<distributionManagement>
+		<!-- <distributionManagement>
   <snapshotRepository>
     <id>nexus</id>
     <url>http://172.31.43.239:8081/nexus/content/repositories/snapshots</url>
   </snapshotRepository>
-</distributionManagement>
+</distributionManagement> -->
 
 </project>
