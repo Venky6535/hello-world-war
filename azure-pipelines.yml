@@ -34,12 +34,12 @@ steps:
 - task: Docker@2
   inputs:
     containerRegistry: 'DockerServiceConnection'
-    repository: 'hello-world-image'
+    repository: 'devopstraining1990/hello-world-image'
     command: 'build'
     Dockerfile: '**/Dockerfile'
 
 - task: Docker@2
   inputs:
     containerRegistry: 'DockerServiceConnection'
-    repository: 'hello-world-image-push'
+    repository: 'devopstraining1990/hello-world-image'
     command: 'push'
