@@ -6,9 +6,10 @@
 trigger:
 - master
 
-pool: 
+pool:
+  vmImage: 'ubuntu-18.04'
 
-   vmImage: 'ubuntu-16.04'
+container: ubuntu:18.04
 
-steps: 
-- bash: echo "Hello world"
+steps:
+- script: printenv
